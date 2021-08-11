@@ -1,0 +1,140 @@
+h1 {
+  font-size: 2em;
+  color: #9C0E2C;
+  margin-bottom: .3em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+.btn-blue {
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.header {
+  -webkit-transform:scale(3,1.5); 
+  -moz-transform:scale(3,1.5); 
+  -ms-transform:scale(3,1.5); 
+  -o-transform:scale(3,1.5); 
+  transform:scale(3,1.5);
+}
+
+p {
+  color: #616161;
+  opacity: 0.95;
+  font-size: 1.25em;
+}
+
+img {
+  border-radius: 40%;
+  width: 200px;
+  background-color: #353334;
+}
+
+#pics {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'Palette Mosaic', cursive;
+}
+
+#ig {
+  text-decoration: none;
+  color: #9C0E2C;
+  font-size: 2em;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#skull {
+  color: black;
+}
+
+.iconify {
+  font-size: 3em;
+  background-color: chartreuse;
+  padding: 0.5em;
+}
+
+h2 {
+  color: slateblue;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.card {
+  background-color: rgb(200 200 200);
+  padding: 40px;
+  box-shadow: 0px 40px 80px rgb(0 0 0 / 80%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#socialmedia {
+  padding: 20px;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.kinky-lined-links {
+  list-style: none;
+  padding-left: 0px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.kinky-lined-links li {
+  display: inline;
+  padding: 10px;
+  text-align: -webkit-match-parent;
+}
+
+.likesubshare {
+  list-style: none;
+  padding-left: 0px;
+  color: red;
+}
+
+.likesubshare li{
+  display: inline;
+  padding: 0px;
+  text-align: -webkit-match-parent;
+}
+
+h3 {
+  color: crimson;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
